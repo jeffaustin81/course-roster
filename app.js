@@ -3,10 +3,11 @@ var courseRoster = angular.module('courseRoster', ['ui.router']);
 courseRoster.config(function($stateProvider) {
 
   $stateProvider.state('home', {
-    url: '',
+    url: "",
     views: {
       'header': {
-        templateUrl: 'partials/header.html',
+        templateUrl: "partials/header.html",
+        controller: 'HeadersCtrl'
       },
       'body': {
         templateUrl: "partials/home.html",
@@ -18,7 +19,8 @@ courseRoster.config(function($stateProvider) {
     url: "/courses",
     views: {
       'header': {
-        templateUrl: 'partials/header.html',
+        templateUrl: "partials/header.html",
+        controller: 'HeadersCtrl'
       },
       'body': {
         templateUrl: "partials/courses.html",
@@ -31,7 +33,8 @@ courseRoster.config(function($stateProvider) {
     url: "/:courseId",
     views: {
       'header': {
-        templateUrl: 'partials/header.html',
+        templateUrl: "partials/header.html",
+        controller: 'HeadersCtrl'
       },
       'body': {
         templateUrl: "partials/courses.students.html",
