@@ -1,6 +1,6 @@
 # _Course Roster_
 
-##### _Course roster application , {Date of current version}_
+##### _Course roster application ,  9/23/15_
 
 #### By _**Jeff Austin**_
 
